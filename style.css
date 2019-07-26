@@ -12,7 +12,7 @@ body{
 }
 nav{
     text-align: center;
-    height: 10vh;
+    height: 8vh;
     background-color: aquamarine;
     width: 100%;
     display: flex;
@@ -23,9 +23,122 @@ nav{
 }
 
 header{
-    height: 80vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.primeiro1{
+    width: 20vh;
+    height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15pt;
+}
+
+.segundo1{
+    width: 20vh;
+    height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15pt;
+}
+
+.terceiro1{
+    width: 20vh;
+    height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15pt;
+}
+.primeiro2{
+    width: 20vh;
+    height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15pt;
+}
+
+.segundo2{
+    width: 20vh;
+    height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15pt;
+}
+
+.terceiro2{
+    width: 20vh;
+    height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15pt;
+}
+.primeiro3{
+    width: 20vh;
+    height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15pt;
+}
+
+.segundo3{
+    width: 20vh;
+    height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15pt;
+}
+
+.terceiro3{
+    width: 20vh;
+    height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15pt;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+button{
+    border-radius: 100%;
+    width: 15vh;
+    height: 15vh;
+    border: none;
+    background-color: aquamarine;
+    font-size: 12pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
