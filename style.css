@@ -39,6 +39,7 @@ header{
     justify-content: space-around;
     flex-direction: column;
     margin: 15pt;
+    cursor: pointer;
 }
 
 .segundo1{
@@ -50,6 +51,7 @@ header{
     justify-content: space-around;
     flex-direction: column;
     margin: 15pt;
+    cursor: pointer;
 }
 
 .terceiro1{
@@ -71,6 +73,7 @@ header{
     justify-content: space-around;
     flex-direction: column;
     margin: 15pt;
+    cursor: pointer;
 }
 
 .segundo2{
@@ -82,6 +85,7 @@ header{
     justify-content: space-around;
     flex-direction: column;
     margin: 15pt;
+    cursor: pointer;
 }
 
 .terceiro2{
@@ -93,6 +97,7 @@ header{
     justify-content: space-around;
     flex-direction: column;
     margin: 15pt;
+    cursor: pointer;
 }
 .primeiro3{
     width: 20vh;
@@ -103,6 +108,7 @@ header{
     justify-content: space-around;
     flex-direction: column;
     margin: 15pt;
+    cursor: pointer;
 }
 
 .segundo3{
@@ -114,6 +120,7 @@ header{
     justify-content: space-around;
     flex-direction: column;
     margin: 15pt;
+    cursor: pointer;
 }
 
 .terceiro3{
@@ -125,6 +132,7 @@ header{
     justify-content: space-around;
     flex-direction: column;
     margin: 15pt;
+    cursor: pointer;
 }
 
 footer{
