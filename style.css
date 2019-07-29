@@ -30,103 +30,10 @@ header{
     justify-content: center;
 }
 
-.primeiro1{
+.quadrado{
     width: 20vh;
     height: 20vh;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 15pt;
-    cursor: pointer;
-}
-
-.segundo1{
-    width: 20vh;
-    height: 20vh;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 15pt;
-    cursor: pointer;
-}
-
-.terceiro1{
-    width: 20vh;
-    height: 20vh;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 15pt;
-}
-.primeiro2{
-    width: 20vh;
-    height: 20vh;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 15pt;
-    cursor: pointer;
-}
-
-.segundo2{
-    width: 20vh;
-    height: 20vh;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 15pt;
-    cursor: pointer;
-}
-
-.terceiro2{
-    width: 20vh;
-    height: 20vh;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 15pt;
-    cursor: pointer;
-}
-.primeiro3{
-    width: 20vh;
-    height: 20vh;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 15pt;
-    cursor: pointer;
-}
-
-.segundo3{
-    width: 20vh;
-    height: 20vh;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 15pt;
-    cursor: pointer;
-}
-
-.terceiro3{
-    width: 20vh;
-    height: 20vh;
-    background-color:white;
+    background-color:#fff;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -149,4 +56,9 @@ button{
     background-color: aquamarine;
     font-size: 12pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: red;
 }

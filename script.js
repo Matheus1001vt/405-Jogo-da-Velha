@@ -1,19 +1,21 @@
 let quadradinhos = document.querySelectorAll(".casinha");
 let resposta = document.querySelector("h2");
 let botao = document.querySelector("button");
-let cores = ["yellow", "blue"];
+let h1 = document.querySelector("h1");
 
 
-i = 0;
+let i = 0;
 
 function gerarCor() {
-    if (this.style.backgroundColor = " ") {
+    if (this.innerHTML == "") {
         if (i % 2 == 0) {
-            this.style.backgroundColor = cores[0];
+            this.innerHTML = "<p>X</p>";
             i++;
+            verificarFinal();
         } else {
-            this.style.backgroundColor = cores[1]
+            this.innerHTML = "<p>O</p>";
             i++;
+            verificarFinal();
         }
     }
 }
@@ -21,30 +23,51 @@ function gerarCor() {
 for (let quadrado of quadradinhos) {
     quadrado.onclick = gerarCor;
 }
-function verificarFinal() {
-    if (quadradinhos[0].style.backgrouendColor == quadradinhos[1].style.backgroundColor && quadradinhos[1].style.backgroundColor == [2] && quadradinhos[2].style.backgroundColor == quadradinhos[3]);
-    resposta.innerHTML = "VOCÊ  VENCEU";
 
+
+function verificarFinal(){  
+    if(quadradinhos[0].innerHTML != "" && quadradinhos[0].innerHTML == quadradinhos[3].innerHTML && quadradinhos[3].innerHTML == quadradinhos[6].innerHTML){
+        h1.innerHTML = "você venceu";
+    }
+    else if(quadradinhos[1].innerHTML != "" && quadradinhos[1].innerHTML == quadradinhos[4].innerHTML && quadradinhos[4].innerHTML == quadradinhos[7].innerHTML){
+        h1.innerHTML = "você venceu";
+    }
+    else if(quadradinhos[2].innerHTML != "" && quadradinhos[2].innerHTML == quadradinhos[5].innerHTML && quadradinhos[5].innerHTML == quadradinhos[8].innerHTML){
+        h1.innerHTML = "você venceu";
+    }
+    else if(quadradinhos[0].innerHTML != "" && quadradinhos[0].innerHTML == quadradinhos[1].innerHTML && quadradinhos[1].innerHTML == quadradinhos[2].innerHTML){
+        h1.innerHTML = "você venceu";
+    }
+    else if(quadradinhos[3].innerHTML != "" && quadradinhos[3].innerHTML == quadradinhos[4].innerHTML && quadradinhos[4].innerHTML == quadradinhos[5].innerHTML){
+        h1.innerHTML = "você venceu";
+    }
+    else if(quadradinhos[6].innerHTML != "" && quadradinhos[6].innerHTML == quadradinhos[7].innerHTML && quadradinhos[7].innerHTML == quadradinhos[8].innerHTML){
+        h1.innerHTML = "você venceu";
+    }
+    else if(quadradinhos[1].innerHTML != "" && quadradinhos[1].innerHTML == quadradinhos[4].innerHTML && quadradinhos[4].innerHTML == quadradinhos[7].innerHTML){
+        h1.innerHTML = "você venceu";
+    }
+    else if(quadradinhos[0].innerHTML != "" && quadradinhos[0].innerHTML == quadradinhos[4].innerHTML && quadradinhos[4].innerHTML == quadradinhos[8].innerHTML){
+        h1.innerHTML = "você venceu";
+    }
+    else if(quadradinhos[6].innerHTML != "" && quadradinhos[6].innerHTML == quadradinhos[4].innerHTML && quadradinhos[4].innerHTML == quadradinhos[2].innerHTML){
+        h1.innerHTML = "você venceu";
+    }
+    else if(i >= 9){
+        alert("velha");
+    }
+    else{
+        return;
+    }
 }
+
 function resetarJogo() {
     for (let quadrado of quadradinhos) {
-        quadrado.style.backgroundColor = "unset";
-        quadrado.onclick = gerarCor;
+        quadrado.innerHTML = "";
+        resposta.innerHTML = "Jogo resetado !";
+    
     }
-    resposta.innerHTML = "Jogo resetado !";
+    i=0;
 }
 
-botao.ondblclick = resetarJogo;
-
-
-
-
-
-
-
-
-
-
-
-
-
+botao.onclick = resetarJogo;
